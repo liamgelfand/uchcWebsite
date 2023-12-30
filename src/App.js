@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+const App = () => {
+  const [apiResponse, setApiResponse] = useState('');
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch('https://i2vaeyqv5f.execute-api.us-east-1.amazonaws.com/dev/graph');
+      const text = await response.text(); // Get the raw text of the response
+      console.log('Raw Response:', text);
+  
+      const data = await response.json(); // Try to parse as JSON
+      setApiResponse(data.body);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>API Response:</h1>
+      <p>{apiResponse}</p>
+      <button onClick={fetchData}>Fetch Data</button>
     </div>
   );
-}
+};
 
 export default App;
+

@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-insite-dev-181729-authRole",
+      "UnauthRoleArn": "arn:aws:iam::100771316498:role/amplify-insite-dev-181729-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::100771316498:role/amplify-insite-dev-181729-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-insite-dev-181729-deployment",
+      "UnauthRoleName": "amplify-insite-dev-181729-unauthRole",
+      "StackName": "amplify-insite-dev-181729",
+      "StackId": "arn:aws:cloudformation:us-east-1:100771316498:stack/amplify-insite-dev-181729/9b4466e0-a769-11ee-b9a3-0eda8fea9503",
+      "AmplifyAppId": "d36gnp2c4mb2ia"
+    },
+    "categories": {
+      "function": {
+        "createGraph": {
+          "deploymentBucketName": "amplify-insite-dev-181729-deployment",
+          "s3Key": "amplify-builds/createGraph-424d466746757a324e67-build.zip"
+        }
+      },
+      "api": {
+        "insiteAPI": {}
+      }
+    }
+  }
+}

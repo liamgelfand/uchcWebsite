@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/graph": {
+      "name": "/graph",
+      "lambdaFunction": "createGraph",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
