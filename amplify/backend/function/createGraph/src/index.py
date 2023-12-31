@@ -11,7 +11,6 @@ def handler(event, context):
     # For now, let's just echo back the received object
     response_body = {
         'receivedData': request_body,
-        'message': 'Hello from your new Amplify Python lambda!'
     }
 
     return {
