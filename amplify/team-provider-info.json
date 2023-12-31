@@ -15,7 +15,7 @@
       "function": {
         "createGraph": {
           "deploymentBucketName": "amplify-insite-dev-181729-deployment",
-          "s3Key": "amplify-builds/createGraph-424d466746757a324e67-build.zip"
+          "s3Key": "amplify-builds/createGraph-435a2f79666541796359-build.zip"
         }
       },
       "api": {

@@ -1,0 +1,241 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9DEDED;
+  }
+  
+  .column {
+    font-size: larger;
+  }
+  
+  .header {
+    margin: 10px 0px 0px 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .subheader {
+    margin: 0px 0px 0px 10px;
+    text-align: left;
+  }
+
+  .logoColumn {
+    text-align: right;
+  }
+
+  img:last-child {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto; 
+  }
+
+  
+  .databrowsing {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10px;
+  }
+  
+  /* ---------------------- */
+
+  .datacontainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+  }
+  
+  .data {
+    width: 40%;
+    font-size: larger;
+    margin: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .menus {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    justify-content: space-between;
+  }
+  
+  .gene {
+    font-weight: bold;
+    margin: 10px;
+    font-size: x-large;
+    padding: 10px;
+
+  }
+  
+  .inCITE {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+    text-align: right; 
+  }
+
+  .dropdown {
+    margin: 10px;
+  }
+  
+  
+  .disease {
+    text-align: left;
+  
+    .checkboxList {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    label {
+      font-size: 16px;
+      margin: 5px 0;
+      text-align: left;
+    }
+  }
+  
+  .sex,
+  .inCITETop25,
+  .inCITEBottom25 {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .sexandmorecontainer {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.cellTypeTitle {
+    text-align: left;
+    margin: 10px;
+}
+  
+.cellType {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: large;
+    margin: 10px;
+  }
+
+  .checkboxList2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: large;
+    margin: 10px 0px 0px 50px;
+  }
+
+/* FILTER STARTS HERE */
+
+.filter {
+  width: 60%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.filtertitle {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+.sectiontitle{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.filterrow1 {
+  display: flex;
+  flex: column;
+  justify-content: space-between;
+}
+
+.filterrow2 {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.filterrow3 {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.filterrow1column1{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.filterrow1column2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.filterrow1column3{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.filterrow2column1{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.filterrow2column2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.filterrow2column3{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.filterrow3column1{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.filterrow3column2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.filterrow3column3{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30px;
+}
+
