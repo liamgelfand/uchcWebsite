@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles/Testing.module.css';
-
+import DownloadLink from './download';
 
 function Testing() {
 
@@ -1071,6 +1071,9 @@ return (
   <div className={styles.apiResponseContainer}>
     <div className={styles.apiResponseTitle}>API Response</div>
     <pre className={styles.apiResponse}>{apiResponse}</pre>
+  </div>
+  <div>
+    <DownloadLink />
   </div>
 </>
 );
